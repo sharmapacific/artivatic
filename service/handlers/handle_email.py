@@ -52,14 +52,3 @@ class SendEmail:
             time = str(obj.date_done)
             f.write(task_id + ',' + status + ',' + time + '\n')
         return file
-
-
-def add_tenant_mail_to_user(self):
-    subject = 'Added As a Tenant for Flat'
-    receivers = 'sharma.pacific1@gmail.com'
-    CeleryTask.send(TASK_SEND_EMAIL, kwargs={
-        'message': 'without call  ',
-        'subject': subject,
-        'receivers': [receivers],
-
-    })
