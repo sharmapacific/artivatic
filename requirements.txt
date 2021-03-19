@@ -22,7 +22,7 @@ django-celery-results==1.0.4
 django-extensions==1.7.6
 django-redis==4.10.0
 django-timezone-field==3.0
-djangorestframework==3.5.3
+djangorestframework==3.11.2
 hiredis==1.0.0
 hyperlink==18.0.0
 idna==2.8
