@@ -8,7 +8,7 @@ attrs==19.1.0
 autobahn==19.3.3
 Automat==0.7.0
 billiard==3.6.0.0
-celery==4.3.0
+celery==5.2.2
 certifi==2019.3.9
 channels==2.1.7
 channels-redis==2.3.3
