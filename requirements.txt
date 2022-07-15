@@ -18,7 +18,7 @@ daphne==2.2.5
 decorator==4.3.2
 Django==1.11.2
 django-celery-beat==1.4.0
-django-celery-results==1.0.4
+django-celery-results==2.4.0
 django-extensions==1.7.6
 django-redis==4.10.0
 django-timezone-field==3.0
